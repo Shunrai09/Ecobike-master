@@ -1,0 +1,215 @@
+body{
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+nav{
+    position: absolute;
+    
+}
+.container-form {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition:  all .5s ease-out;
+    
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.message {
+    padding: 1rem;
+    border-radius: 10% ;
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: hsla(0, 0%, 100%, 0.692);
+    text-align: center;
+}
+
+.message h2 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: black;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: rgb(148, 194, 64);
+}
+
+.formulario {
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: hsla(0, 0%, 100%, 0.753);
+    text-align: center;
+}
+
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.iconos {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.border-iconF{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin black;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+.border-iconG{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin black;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+
+.border-iconG:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+.border-iconF:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+.cuenta-gratis {
+    padding: 2rem 0;
+}
+
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: black thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: black;
+}
+
+.formulario input[type="button"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin black;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: black;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.btn-perfil{
+    position: relative;
+    padding: 11px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    background-color: black;
+    border: 0;
+    overflow: hidden;
+}
+
+.btn-perfil input[type='file']{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(3);
+    opacity: 0;
+}
+
+.sign-up{
+    justify-content: center;
+}
+.sign-in {
+   position: absolute;
+   justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
+.formulario .Registrarse {
+    width: 60%;
+    margin: auto;
+    border: solid thin black;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: black;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.formulario .iniciar-sesion {
+    width: 60%;
+    margin: auto;
+    border: solid thin black;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: black;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #fff;
+    
+}

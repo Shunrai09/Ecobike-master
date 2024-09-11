@@ -1,0 +1,413 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+  background-color: #E9E9E9;
+}
+
+.navbar {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px 50px;
+  color: #000;
+}
+
+nav>div>div>a {
+  color: #000;
+}
+
+.lista{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.link{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.link::before, .link::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(148, 194, 64);
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.link::before{
+  top:-3px;
+  transform-origin: left;
+}
+
+.link::after{
+  bottom: -3px;
+  transform-origin: right;
+}
+
+.link:hover::before,
+.link:hover::after,
+.active::before,
+.active::after{
+  transform: scaleX(1);
+}
+
+.container {
+  background-color: #fff;
+}
+
+footer {
+  padding: 30px 50px;
+  background-color: rgb(148, 194, 64);
+  color: #fff;
+}
+
+section {
+  padding-bottom: 70px;
+}
+
+.redes-sociales {
+  text-align: center;
+}
+
+.carroselimg {
+  height: 575px;
+}
+
+.carrosel1 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  height: 575px;
+}
+
+
+.imagencarrosel {
+  width: 450px;
+  height: 575px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.imagencarrosel1 {
+  width: 450px;
+  height: 575px;
+
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.btncarrosel {
+
+
+  padding: 10px 60px;
+  background-color: rgb(148, 194, 64);
+}
+
+.btncarrosel1 {
+  text-align: center;
+  padding: 10px 100px;
+  position: absolute;
+  top: 365px;
+  margin-left: 355px;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 100%;
+
+}
+
+.carrosel2 {
+  background-color: rgb(148, 194, 64);
+  color: #000;
+  text-align: center;
+  height: 575px;
+
+}
+
+
+.carroseltexto1 {
+  text-align: center;
+  padding: 10px 50px;
+  position: absolute;
+  top: 230px;
+  margin-left: 355px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.texto1 {
+  padding-top: 160px;
+  margin-bottom: 100px;
+}
+
+.texto1>p {
+  padding-top: 20px;
+}
+
+.carroseltexto2 {
+
+  position: absolute;
+  top: 210px;
+  margin-left: 72%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.btncarrosel2 {
+  text-align: center;
+  padding: 10px 100px;
+  position: absolute;
+  top: 380px;
+  margin-left: 79%;
+  transform: translate(-50%, -50%);
+  background-color: #3b3a3aef;
+  border-bottom: 90%;
+  color: rgb(148, 194, 64);
+}
+
+.textocard {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btncard {
+  background-color: rgb(148, 194, 64);
+  color: #ffffff;
+}
+
+.imagenblog {
+  width: 800px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.textoblog {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.btnblog {
+  margin-top: 20px;
+  padding: 15px 40px;
+}
+
+.textonosotros {
+  padding-left: 20px;
+  width: 500px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+
+
+}
+
+.alinear-texto {
+  padding: 20px 60px 10px 60px;
+}
+
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.btn-block1 {
+  width: 100%;
+}
+
+
+.btn-outline-dark1 {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.login {
+  background-color: rgb(148, 194, 64);
+}
+
+.custom-card1 {
+  height: 200px;
+  width: 500px;
+  padding-left: 10px;
+}
+
+.custom-card {
+  height: 100px;
+  width: 500px;
+}
+
+.texto-justificado {
+  text-align: justify;
+}
+.titulotienda{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.subnavbar {
+  margin-top: 50px;
+  width: 10px;
+  margin-inline: 115px;
+  padding: 7px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: rgb(148, 194, 64);
+  color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.iconoscentrados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.icons a {
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(65, 63, 63, 0.7);
+  background-image: -webkit-linear-gradient( white 50%, rgb(217, 255, 0) 50%);
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+  transition: background-position 1s, color 1s;
+}
+
+.redes-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-container ul li{
+  display: inline-block;
+  margin: 0 15px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  
+}
+
+.redes-container ul li a{
+  display: block;
+  padding: 0 10px;
+  background-color: #000;
+  color: #fff;
+  line-height: 80px;
+  border-radius: 100%;
+  font-size: 40px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+.redes-container ul li .facebook:hover{
+  background-color: blue;
+}
+.redes-container ul li .instagram:hover{
+  background-color: red;
+}
+
+.redes-container ul li .tiktok:hover{
+  background-color: white;
+  color: #000;
+}
+
+.redes-container ul li .whatsapp:hover{
+  background-color: green;
+}
+
+
+.cardcarrito{
+  margin-top: 20px;
+  height: 250px;
+  width: 700px;
+  padding-left: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+.circulo{
+  margin-left: 30px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cardcarrito2{
+  margin-top: 20px;
+  height: 250px;
+  width: 300px;
+  padding-left: 15px;
+  border: 2px solid black;
+  border-radius: 10px; 
+}
+.final{
+  transform: translate(-50% 0 0 0);
+  justify-content: end;
+  align-items: end;
+}
+.centrado{
+  justify-content: center;
+  align-items: center;
+  
+}
+.imagennosotros {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.datosusuario{
+  margin-bottom: 20px;
+}
+.textousuarios{
+  font-weight: bold;
+
+}
+
+.link-unstyled {
+  color: inherit;
+  text-decoration: none;
+}
